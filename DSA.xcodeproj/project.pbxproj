@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		C09A78ED2EEF18CB00D10033 /* FindMax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C09A78EE2EEF1DF000D10033 /* SearchArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SearchArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C0C982482EF1853D00E55FA3 /* RemoveDuplicate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RemoveDuplicate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -24,6 +25,7 @@
 			children = (
 				C09A78ED2EEF18CB00D10033 /* FindMax.playground */,
 				C09A78EE2EEF1DF000D10033 /* SearchArray.playground */,
+				C0C982482EF1853D00E55FA3 /* RemoveDuplicate.playground */,
 			);
 			path = Array;
 			sourceTree = "<group>";
