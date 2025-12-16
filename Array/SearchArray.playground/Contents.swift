@@ -20,6 +20,8 @@ import UIKit
  
  */
 
+var sortedArray = [1, 2, 4, 8, 16, 18, 20, 98]
+
 
 func arrayContains(_ arr: [Int], _ target: Int) -> Bool {
     
@@ -31,4 +33,22 @@ func arrayContains(_ arr: [Int], _ target: Int) -> Bool {
     return false
 }
 
-arrayContains([1, 4, 2, 18, 16, 8], 2)
+func binarySearch(_ arr: [Int], _ target: Int) -> Int {
+    var left = 0
+    var right = arr.count - 1
+    
+    while left<=right {
+        var mid = (left+right)/2
+        print(mid)
+        if arr[mid] > target {
+            right = mid - 1
+        } else if arr[mid] < target {
+            left = mid + 1
+        } else {
+            return mid
+        }
+    }
+    return -1
+}
+//arrayContains([1, 4, 2, 18, 16, 8], 2)
+binarySearch(sortedArray, 8)
