@@ -32,6 +32,20 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 */
 
+func removeDuplicatewithMutatingArray(_ nums: inout [Int]) -> Int {
+    var j = 0
+    for i in 0..<nums.count-1 {
+        let num = nums[i]
+        let next = nums[i+1]
+        
+        if num != next {
+            j += 1
+            nums[j] = num
+        }
+    }
+    return j + 1
+}
+
 
 func removeDuplicate(_ nums: [Int]) -> Int {
     var result = [Int]()
@@ -44,5 +58,6 @@ func removeDuplicate(_ nums: [Int]) -> Int {
     return result.count
 }
 
-let duplicateArray = [0,0,1,1,1,2,2,3,3,4]
+var duplicateArray = [0,0,1,1,1,2,2,3,3,4]
 removeDuplicate(duplicateArray)
+removeDuplicatewithMutatingArray(&duplicateArray)
