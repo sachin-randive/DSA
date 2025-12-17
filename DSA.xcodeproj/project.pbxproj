@@ -11,12 +11,14 @@
 		C09A78EE2EEF1DF000D10033 /* SearchArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SearchArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0C982482EF1853D00E55FA3 /* RemoveDuplicate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RemoveDuplicate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0CFBDE82EF2C1AD007A01AE /* TwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C0CFBDEA2EF2C4B4007A01AE /* Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		C09A78E42EEF186C00D10033 = {
 			isa = PBXGroup;
 			children = (
+				C0CFBDE92EF2C495007A01AE /* Queues */,
 				C09A78EB2EEF188800D10033 /* Array */,
 			);
 			sourceTree = "<group>";
@@ -30,6 +32,14 @@
 				C0CFBDE82EF2C1AD007A01AE /* TwoSum.playground */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		C0CFBDE92EF2C495007A01AE /* Queues */ = {
+			isa = PBXGroup;
+			children = (
+				C0CFBDEA2EF2C4B4007A01AE /* Queues.playground */,
+			);
+			path = Queues;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
