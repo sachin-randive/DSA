@@ -24,3 +24,18 @@ reverseString(&str1)
 print(str1)
 
 
+func reversewithoutSwapAtString(_ s: inout [Character]) {
+    
+    var left = 0
+    var right = s.count - 1
+    
+    while left < right {
+        let temp = s[left]
+        s[left] = s[right]
+        s[right] = temp
+    }
+    print(s)
+}
+
+var str2: [Character] = ["h", "e", "l", "l", "o", "Z"]
+reverseString(&str2)
