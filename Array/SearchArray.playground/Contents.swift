@@ -33,6 +33,8 @@ func arrayContains(_ arr: [Int], _ target: Int) -> Bool {
     return false
 }
 
+// Binary search
+
 func binarySearch(_ arr: [Int], _ target: Int) -> Int {
     var left = 0
     var right = arr.count - 1

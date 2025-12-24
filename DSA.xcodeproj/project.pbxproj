@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		C09A78ED2EEF18CB00D10033 /* FindMax.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FindMax.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C09A78EE2EEF1DF000D10033 /* SearchArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SearchArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C0B82B6E2EFBB30B00D31B15 /* Palindrome.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Palindrome.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0C982482EF1853D00E55FA3 /* RemoveDuplicate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RemoveDuplicate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0CFBDE82EF2C1AD007A01AE /* TwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0CFBDEA2EF2C4B4007A01AE /* Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -19,6 +20,7 @@
 		C09A78E42EEF186C00D10033 = {
 			isa = PBXGroup;
 			children = (
+				C0B82B6D2EFBB27F00D31B15 /* String */,
 				C0CFBDE92EF2C495007A01AE /* Queues */,
 				C09A78EB2EEF188800D10033 /* Array */,
 			);
@@ -34,6 +36,14 @@
 				C0E659652EF3B5DA00F9330B /* SellBuyStock.playground */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		C0B82B6D2EFBB27F00D31B15 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				C0B82B6E2EFBB30B00D31B15 /* Palindrome.playground */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 		C0CFBDE92EF2C495007A01AE /* Queues */ = {
