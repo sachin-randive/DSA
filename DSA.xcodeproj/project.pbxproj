@@ -15,6 +15,7 @@
 		C0CFBDE82EF2C1AD007A01AE /* TwoSum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TwoSum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0CFBDEA2EF2C4B4007A01AE /* Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Queues.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0D3478C2F1B34C000E6611E /* BuildingOceanView.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuildingOceanView.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C0D3478E2F1CE24400E6611E /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C0E659652EF3B5DA00F9330B /* SellBuyStock.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SellBuyStock.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -22,6 +23,7 @@
 		C09A78E42EEF186C00D10033 = {
 			isa = PBXGroup;
 			children = (
+				C0D3478D2F1CE22600E6611E /* LinkedList */,
 				C0B82B6D2EFBB27F00D31B15 /* String */,
 				C0CFBDE92EF2C495007A01AE /* Queues */,
 				C09A78EB2EEF188800D10033 /* Array */,
@@ -72,6 +74,14 @@
 				C0CFBDE82EF2C1AD007A01AE /* TwoSum.playground */,
 			);
 			path = Easy;
+			sourceTree = "<group>";
+		};
+		C0D3478D2F1CE22600E6611E /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				C0D3478E2F1CE24400E6611E /* LinkedList.playground */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
